@@ -64,4 +64,4 @@ Then, run the desired tool:
 *   **Patcher**: The main tool for applying the BigInt patch. It will scan the Antigravity application, classify all `JSON.stringify` calls, and allow you to apply the correct patch.
 *   **Unpatcher**: Reverts any changes made by the patcher, restoring the Antigravity application to its original state.
 *   **Checker**: A diagnostic tool that scans the application and provides a detailed, color-coded report on the status of all `JSON.stringify` calls without making any changes.
-*   **Cleanup**: A utility to remove all user-level configuration files, caches, and leftover backup files created by the patcher.
+*   **Cleanup**: A utility to remove all user-level configuration files, caches, and leftover backup files for clean uninstallation and reinstallation of Antigravity.
